@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokemon JS App</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 style="text-align:center">Pokédex</h1>
+    <ul style="text-align:center" class="pokemon-list"></ul>
+    <div id="loading-container"></div>
+    <!-- Modal -->
+    <button id="show-modal">Show modal</button>
+    <div id="modal-container">
+      <div class="modal">
+        <button class="modal-close">Close</button>
+        <h1>Modal title</h1>
+        <p>Modal text</p>
+        <!-- <img src=""> -->
+      </div>
+    </div>
+    <strong>
+      <script src="js/promise-polyfill.js"></script>
+      <script src="js/fetch-polyfill.js"></script>
+      <script src="js/scripts.js"></script>
+    </strong>
+  </body>
+</html>
